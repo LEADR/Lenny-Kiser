@@ -47,15 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-/*
-====================================================
-====================================================
-*/
 
 /*
-.hero {
-  background: url("assets/push-big.jpg") no-repeat;
-}
+====================================================
+
+====================================================
 */
 
 header>*,
@@ -63,18 +59,27 @@ header>nav>ul>li {
   display: inline-block;
 }
 
+header {
+	position: relative;
+}
+
 nav {
   float:right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 #hero-title {
-  margin-top: 1em;
-  padding: 0 1em;
-  font-size: 28px;
+  margin-top: 0em;
+  padding: 0 0 0 1em;
+  font-size: 48px;
 }
 
 #hero-container {
-  background: gray;
+	background: url("assets/push-big.jpg") 50% 50% no-repeat;
+	background-size: cover; 
+	height: 288px;
 }
 
 #teaching-options,
@@ -84,20 +89,29 @@ nav {
   text-align: center;
 }
 
-.course,
+.course-type,
 .description {
   display: inline-block;
 }
 
-.course>p,
+.course-type>p,
 .description>p {
   width: 256px;
 }
 
-.course,
+.course-type,
 .description {
   margin: 0 16px;
 
+}
+
+.photo{
+	width: 256px;
+	height: 192px;
+}
+
+#group-couse-photo {
+	background: url('assets/')
 }
 
 #testimonials {
@@ -122,14 +136,16 @@ footer>* {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
 }
 
 .social-links {
-
-
 }
+
+/*
+====================================================
+	Typography
+====================================================
+*/
 
 body {
   font-family: Futura, "Gill Sans", Helvetica;
