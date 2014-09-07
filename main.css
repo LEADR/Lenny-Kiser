@@ -67,3 +67,7 @@ nav {
 nav>ul>li {
   float: right;
 }
+
+body {
+	font-style: Arial, Helvetica;
+}
