@@ -52,22 +52,49 @@ table {
 ====================================================
 */
 
+/*
 .hero {
   background: url("assets/push-big.jpg") no-repeat;
 }
+*/
 
-header>* {
+header>*,
+header>nav>ul>li {
   display: inline-block;
 }
 
 nav {
-  float: right;
+  float:right;
 }
 
-nav>ul>li {
-  float: right;
+#hero-title {
+  margin-top: 1em;
+  padding: 0 1em;
+  font-size: 28px;
 }
 
-body {
-	font-family: Arial, Helvetica;
+#hero-container {
+  background: gray;
+}
+
+#teaching-options {
+  text-align: center;
+}
+
+.course {
+  display: inline-block;
+}
+
+.course>p {
+  width: 256px;
+}
+
+.course {
+  margin: 0 16px;
+  border: 1px solid black;
+}
+
+#testimonials {
+  margin: 16px;
+  text-align: center;
 }
