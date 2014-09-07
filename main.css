@@ -77,24 +77,66 @@ nav {
   background: gray;
 }
 
-#teaching-options {
+#teaching-options,
+#testimonials,
+#available-courses,
+#mailing-list {
   text-align: center;
 }
 
-.course {
+.course,
+.description {
   display: inline-block;
 }
 
-.course>p {
+.course>p,
+.description>p {
   width: 256px;
 }
 
-.course {
+.course,
+.description {
   margin: 0 16px;
-  border: 1px solid black;
+
 }
 
 #testimonials {
   margin: 16px;
-  text-align: center;
+  line-height: 2em;
+}
+
+#mailing-list>* {
+  display: inline-block;
+}
+
+#mailing-list {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: gray;
+}
+
+footer>* {
+  display: inline-block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.social-links {
+
+
+}
+
+body {
+  font-family: Futura, "Gill Sans", Helvetica;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
 }
